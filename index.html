@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9ddf173d7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+  <section class="main-sec" >
+    <div class="main-txt" >
+        <h1>Welcome To Paradise Hotel</h1>
+        <p>We provide rooms at a very good price along with great amenities to make your living expirience amazing.</p>
+        <button class="rev-button">Reservation</button>
+    </div>
+  </section>
+  <h2 class="abt">About Us</h2>
+  <section class="abt-sec">
+    <div class="abt-txt">
+        <p>The Hotel TAP Paradise in Bengaluru, Karnataka is a 3-star hotel located near several popular tourist attractions. The rooms are clean and spacious, and all of the necessary amenities for a comfortable stay are provided. The employees are pleasant and helpful, and the breakfast spread is excellent. Overall, we had a wonderful experience at the Hotel Tamphur Paradise, and we would definitely suggest it to anyone visiting Bengaluru.</p>
+        <br>
+        <p>The offer includes a deluxe double room for families or friends. The room was clean and the staff were friendly and helpful. The breakfast buffet had a great selection of food.</p> 
+        <br>  
+        <p>The hotel is close to several popular tourist attractions, including Mysore Palace, Lalbagh Botanical Garden, and Bangalore Palace. It is conveniently located near a variety of shopping and dining options.</p>
+        <div class="lrn-button-container">
+        <button class="lrn-button">Learn More...</button>
+        </div>
+    </div>
+    <div class="amenities">
+      <h3>Amenities We Provide:</h3>
+      <ul>
+         <li><i class="fa-solid fa-bell-concierge"></i>24-hour reception</li>
+         <li><i class="fa-solid fa-wifi"></i>Free Wi-Fi</li>
+         <li><i class="fa-solid fa-square-parking"></i>Parking</li>
+         <li><i class="fa-solid fa-tower-broadcast"></i>Cable/ Satellite television</li>
+         <li><i class="fa-solid fa-rug"></i>Carpeted floor</li>
+         <li><i class="fa-solid fa-toilet"></i>Free toiletries</li>
+         <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+      </ul>   
+    </div>
+  </section>
+  <h2 class="acco">Accommodation</h2>
+  <section class="acco-container">
+    <div class="acco-img">
+      <img src="img2.jpg.png" alt="acco-img">
+    </div>
+    <div class="acco-type">
+      <h4>Single Occupancy</h4>
+      <p>A low-cost housing typically aimed at residents with low or minimal incomes, or single adults who like a minimalist lifestyle, who rent small, furnished single rooms with a bed, chair, and sometimes a small desk</p>
+      <h4>Family Room</h4>
+      <p> It typically includes additional sleeping spaces, such as sofa beds or bunk beds, and may also feature separate living areas or kitchenettes.</p>
+      <h4>laxury Room</h4>
+      <p> Luxury rooms are characterized by high-quality furnishings with opulent, expensive touches, attention to aesthetic detail, and a variety of amenities.Deluxe rooms are usually larger than their standard counterparts, may include a bathtub and a shower in the bathroom, and include more high-end amenities</p>
+    </div>
+  </section>
+  <div class="help-button">
+    <h4>Need Help?</h4>
+  </div>
+  <h2 class="form-heading">Accommodation Form</h2>
+  <section class="form-container">
+    <form>
+      <div class="form-grp">
+        <label for="name">Your Full Name</label><br>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-grp">
+        <label for="email">Email Id</label><br>
+        <input type="email" id="email" required>
+      </div>
+      <div>
+        <label for="num">Contact Number</label><br>
+        <input type="number" id="num" required>
+      </div>
+      <div class="form-grp">
+        <label for="reservation-date">Date of Reservation</label><br>
+        <input type="date" id="resevation-date" required>
+      </div>
+      <div class="form-grp">
+        <label for="acco-type">Type of Accommodation</label><br>
+        <select type="acco-type" id="acco-type" required>
+          <option value=""selected disabled  >Select....</option>
+          <option value="Single">Single Occupancy</option>
+          <option value="family">Family Room</option>
+          <option value="laxury">Laxury Room</option>
+        </select>
+      </div>
+      <input type="submit" class="reserve" value="Reserve">
+    </form>
+  </section>
+</body>
+</html>

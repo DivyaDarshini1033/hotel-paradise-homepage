@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.main-sec{
+    background-image:url(img.jpg);
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0,0.5);
+    min-height:100vh;
+    position:relative;
+}
+.main-txt{
+    color:whitesmoke;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-txt>h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+.main-txt>p{
+    font-size: 20px;
+}
+.rev-button,
+.lrn-button{
+    font-size:15px;
+    background-color: aqua;
+    border-radius:12px;
+    border:none;
+    padding:8px;
+    margin-top:15px;
+    cursor: pointer;
+}
+.abt-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.abt,
+.lrn-button-container,
+.acco,
+.form-heading{
+    text-align: center;
+}
+.abt-txt{
+    width:50%;
+}
+ul li{
+    list-style:none;
+}
+.fa-solid{
+    margin-right: 15px;
+}
+.acco-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.acco{
+    margin-top:30px;
+    margin-bottom :50px;
+}
+.acco-type h4{
+    font-size:17px;
+}
+.help-button{
+    background-color: darkorchid;
+    width:fit-content;
+    padding:5px 10px;
+    border-radius:12px ;
+    position: fixed;
+    bottom:15px;
+    right:0px;
+    color: white;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+form{
+    border:2px solid black;
+    width: max-content;
+    padding:20px 45px;
+    border-radius: 25px;
+    margin-bottom:25px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form-heading{
+    margin-top:45px;
+}
+label{
+    margin:0px 15px;
+}
+input,
+select{
+   margin: 0px 5px 15px;
+   padding:0px 15px;
+}
+.abt,
+.acco,
+.amenities>h3,
+.form-heading{
+    text-decoration: underline;
+}
+@media only screen and (min-width:600px) and (max-width:980px){
+    .main-txt>h1{
+        font-size:35px;
+        margin-bottom:5px;
+    }
+    .p{
+        font-size:14px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:450px) {
+    .main-sec{
+        min-height: 160vh;
+        width: 600px;
+    }
+    .main-txt>h1{
+        font-size:  40px;
+    }
+    .main-txt>p{
+        font-size: 27px;
+    }
+    .rev-button
+    {
+        font-size: 20px;
+    }
+    .abt-sec,
+    .acco-container{
+        display: block;
+        margin-left: 30px;
+    }
+    .abt-txt,
+    .acco-container{
+        width: 130%;
+    }
+    .lrn-button{
+        margin-bottom: 30px;
+    }
+    .abt{
+        margin-top: 30px;
+        margin-left:200px;
+    }
+    .acco{
+        margin-left :170px;
+        margin-bottom:20px;
+    }
+    .acco-type,
+    .acco-img
+    {
+        text-align: center;
+    }
+    .form-heading,
+    .form-container{
+        width: 100%;
+        margin-left:90px;
+    }
+}
+@media screen and (min-width:430px) and (max-width:600px) {
+    .main-sec {
+        min-height: 190vh;
+        width: 800px;
+}
+}
